@@ -211,10 +211,20 @@
     }
   }
 
+  /** First quiz link on hub (tracks quizzes.json order) */
+  function syncHubFirstQuizBtn() {
+    const btn = document.getElementById("hub-start-first-quiz");
+    if (!btn || manifest.length === 0) return;
+    const first = manifest[0];
+    btn.href = `#${first.id}`;
+    btn.textContent = `Start the first quiz: ${first.title}`;
+  }
+
   async function loadManifest() {
     const res = await fetch("quizzes.json", { cache: "no-store" });
     manifest = (await res.json()).quizzes;
     buildTOC();
+    syncHubFirstQuizBtn();
     updateTOCActive();
   }
 
