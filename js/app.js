@@ -1,6 +1,6 @@
 /* Static quiz runner: parse quiz markdown (same blocks as learnr txt), render, persist to localStorage. */
 (function () {
-  const STORAGE_KEY = "cmquiz-progress-v1";
+  const STORAGE_KEY = "cmquiz-progress-v2";
 
   /** Mirror learnr preprocessing in quizzes.Rmd make_question() */
   function applyLearnrTransforms(s) {
@@ -64,30 +64,14 @@
     return { meta, introMd, questions };
   }
 
-  /** Shuffle copy Fisher-Yates, seeded per quiz+q index so order stable across revisits until reload */
-  function shuffle(arr, seed) {
+  /** Shuffle options with fresh random order on each quiz load (correct position not predictable). */
+  function shuffleRandom(arr) {
     const out = arr.slice();
-    let x = seed >>> 0;
-    function rnd() {
-      x ^= x << 13;
-      x ^= x >>> 17;
-      x ^= x << 5;
-      return (x >>> 0) / 4294967296;
-    }
     for (let i = out.length - 1; i > 0; i--) {
-      const j = Math.floor(rnd() * (i + 1));
+      const j = Math.floor(Math.random() * (i + 1));
       [out[i], out[j]] = [out[j], out[i]];
     }
     return out;
-  }
-
-  function seedFrom(str) {
-    let h = 2166136261;
-    for (let i = 0; i < str.length; i++) {
-      h ^= str.charCodeAt(i);
-      h = Math.imul(h, 16777619);
-    }
-    return h >>> 0;
   }
 
   function loadProgress() {
@@ -184,11 +168,47 @@
     });
   }
 
-  /** Bottom nav: next quiz or back to intro */
-  function renderQuizFooter(id) {
+  /** Bottom nav + slot for gated navigation messages */
+  function renderQuizFooter(id, questions) {
     quizFooterEl.innerHTML = "";
+    const navMsg = document.createElement("div");
+    navMsg.id = "quiz-nav-feedback";
+    navMsg.className = "quiz-nav-feedback small mb-3";
+    navMsg.setAttribute("role", "status");
+    quizFooterEl.appendChild(navMsg);
+
     const idx = manifest.findIndex((x) => x.id === id);
     if (idx < 0) return;
+
+    const goAfterWoohoo = (fn) => {
+      navMsg.innerHTML =
+        '<div class="alert alert-success py-2 px-3 mb-0 shadow-sm">' +
+        '<strong>Woohoo — all answers match.</strong> Moving on...</div>';
+      window.setTimeout(fn, 700);
+    };
+
+    const tryLeaveQuiz = (onOk) => {
+      navMsg.textContent = "";
+      quizBodyEl.querySelectorAll(".quiz-card-needs-work").forEach((c) =>
+        c.classList.remove("quiz-card-needs-work")
+      );
+      const { allCorrect, incorrectQi } = evaluateQuizAgainstKeys(quizBodyEl, questions);
+      if (!allCorrect) {
+        navMsg.innerHTML =
+          '<div class="alert alert-warning py-2 px-3 mb-0">' +
+          "Fix or complete the highlighted questions first (scroll up). " +
+          "Each one needs every correct option checked and nothing extra." +
+          "</div>";
+        incorrectQi.forEach((qi) => {
+          const card = quizBodyEl.querySelector(`.quiz-card[data-q-index="${qi}"]`);
+          if (card) card.classList.add("quiz-card-needs-work");
+        });
+        const first = quizBodyEl.querySelector(".quiz-card-needs-work");
+        if (first) first.scrollIntoView({ behavior: "smooth", block: "center" });
+        return;
+      }
+      goAfterWoohoo(onOk);
+    };
 
     if (idx < manifest.length - 1) {
       const next = manifest[idx + 1];
@@ -197,8 +217,10 @@
       btn.className = "btn btn-primary btn-lg";
       btn.textContent = `Next topic: ${next.title}`;
       btn.addEventListener("click", () => {
-        location.hash = next.id;
-        window.scrollTo(0, 0);
+        tryLeaveQuiz(() => {
+          location.hash = next.id;
+          window.scrollTo(0, 0);
+        });
       });
       quizFooterEl.appendChild(btn);
     } else {
@@ -206,9 +228,35 @@
       btn.type = "button";
       btn.className = "btn btn-outline-secondary btn-lg";
       btn.textContent = "Back to introduction";
-      btn.addEventListener("click", () => openHub());
+      btn.addEventListener("click", () => {
+        tryLeaveQuiz(() => openHub());
+      });
       quizFooterEl.appendChild(btn);
     }
+  }
+
+  /** Compare current selections (by original option index) to correct flags in question spec */
+  function isQuestionFullyCorrect(q, pickedOrigArr) {
+    const correctOrig = new Set();
+    q.options.forEach((o, oi) => {
+      if (o.correct) correctOrig.add(oi);
+    });
+    const picked = new Set(pickedOrigArr);
+    return picked.size === correctOrig.size && [...correctOrig].every((i) => picked.has(i));
+  }
+
+  function evaluateQuizAgainstKeys(quizBody, questions) {
+    const incorrectQi = [];
+    questions.forEach((q, qi) => {
+      const card = quizBody.querySelector(`.quiz-card[data-q-index="${qi}"]`);
+      if (!card) return;
+      const optsWrap = card.querySelector(".quiz-opts");
+      if (!optsWrap) return;
+      const multi = card.dataset.multi === "1";
+      const pickedOrig = readPickedOrig(optsWrap, multi);
+      if (!isQuestionFullyCorrect(q, pickedOrig)) incorrectQi.push(qi);
+    });
+    return { allCorrect: incorrectQi.length === 0, incorrectQi };
   }
 
   /** First quiz link on hub (tracks quizzes.json order) */
@@ -251,7 +299,7 @@
 
     parsed.questions.forEach((q, qi) => {
       const wrap = document.createElement("div");
-      wrap.className = "card mb-4";
+      wrap.className = "card quiz-card mb-4";
       wrap.dataset.qIndex = String(qi);
 
       const body = document.createElement("div");
@@ -262,6 +310,8 @@
       renderStem(stemEl, q.stem);
 
       const multi = q.options.filter((o) => o.correct).length !== 1;
+      wrap.dataset.multi = multi ? "1" : "0";
+
       if (multi) {
         const mh = document.createElement("div");
         mh.className = "multi-hint mb-2";
@@ -270,13 +320,17 @@
       }
 
       const optsWrap = document.createElement("div");
-      optsWrap.className = multi ? "" : "list-group";
+      optsWrap.className = multi ? "quiz-opts" : "quiz-opts list-group";
 
-      const seed = seedFrom(`${id}:${qi}`);
       const indexed = q.options.map((o, oi) => ({ ...o, origIndex: oi }));
-      const shuffled = shuffle(indexed, seed);
+      const shuffled = shuffleRandom(indexed);
 
       const saved = prog[String(qi)] || {};
+
+      /** v1 fallback: migrated display-indices unreliable after shuffle randomisation */
+      const pickedOrigLegacy = Array.isArray(saved.pickedOrig)
+        ? saved.pickedOrig
+        : ([]);
 
       shuffled.forEach((opt, displayIdx) => {
         const inputId = `${id}-q${qi}-o${displayIdx}`;
@@ -291,10 +345,11 @@
         input.value = String(displayIdx);
         input.dataset.origIndex = String(opt.origIndex);
 
-        input.checked = !!(saved.picked && saved.picked.includes(displayIdx));
+        input.checked =
+          pickedOrigLegacy.length && pickedOrigLegacy.includes(Number(opt.origIndex));
 
         input.addEventListener("change", () => {
-          persistQuestionState(id, qi, readPickedInputs(optsWrap, multi));
+          persistQuestionState(id, qi, readPickedOrig(optsWrap, multi));
           feedbackEl.textContent = "";
           feedbackEl.className = "small mt-2";
         });
@@ -326,17 +381,12 @@
       }
 
       btn.addEventListener("click", () => {
-        const pickedArr = readPickedInputs(optsWrap, multi);
-        const correctSet = new Set(
-          shuffled.map((o, displayIdx) => (o.correct ? displayIdx : null)).filter((x) => x !== null)
-        );
-        const pickedSet = new Set(pickedArr);
-        let ok =
-          pickedSet.size === correctSet.size && [...correctSet].every((idx) => pickedSet.has(idx));
+        const pickedOrigArr = readPickedOrig(optsWrap, multi);
+        const ok = isQuestionFullyCorrect(q, pickedOrigArr);
 
         feedbackEl.textContent = ok ? "Correct." : q.hint;
         feedbackEl.className = `small mt-2 ${ok ? "text-success" : "text-danger"}`;
-        persistQuestionState(id, qi, pickedArr, { ok, text: feedbackEl.textContent });
+        persistQuestionState(id, qi, pickedOrigArr, { ok, text: feedbackEl.textContent });
       });
 
       btnRow.appendChild(btn);
@@ -349,21 +399,23 @@
       quizBodyEl.appendChild(wrap);
     });
 
-    renderQuizFooter(id);
+    renderQuizFooter(id, parsed.questions);
     window.scrollTo(0, 0);
   }
 
-  function readPickedInputs(optsWrap, multi) {
+  /** Selected options keyed by authoring order (`y` markup order), survives option reshuffles. */
+  function readPickedOrig(optsWrap, multi) {
     const inputs = [...optsWrap.querySelectorAll("input")];
-    if (multi) return inputs.filter((i) => i.checked).map((i) => Number(i.value));
+    if (multi)
+      return inputs.filter((i) => i.checked).map((i) => Number(i.dataset.origIndex));
     const one = inputs.find((i) => i.checked);
-    return one ? [Number(one.value)] : [];
+    return one ? [Number(one.dataset.origIndex)] : [];
   }
 
-  function persistQuestionState(quizId, qi, pickedDisplayIndices, feedback) {
+  function persistQuestionState(quizId, qi, pickedOrigIndices, feedback) {
     const all = loadProgress();
     all[quizId] = all[quizId] || {};
-    const cur = { picked: pickedDisplayIndices };
+    const cur = { pickedOrig: pickedOrigIndices };
     if (feedback) cur.feedback = feedback;
     else delete cur.feedback;
     all[quizId][String(qi)] = cur;

@@ -237,3 +237,42 @@ body {
   max-width: 100%;
   height: auto;
 }
+
+/* Incomplete quiz highlight when Next topic is gated */
+.quiz-card-needs-work {
+  outline: 3px solid var(--cm-pink);
+  outline-offset: 3px;
+  border-radius: var(--radius);
+}
+
+/* Options area marker for gated navigation scans */
+.quiz-opts.list-group .list-group-item {
+  padding-top: 0.65rem;
+  padding-bottom: 0.65rem;
+}
+
+/* Stronger radios / checkboxes (Bootstrap defaults are too faint on light UI) */
+#quiz-pane .form-check-input {
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-top: 0.2rem;
+  border: 2px solid var(--cm-ink);
+  background-color: #fff;
+  cursor: pointer;
+}
+
+#quiz-pane .form-check-input:hover:not(:disabled) {
+  border-color: var(--cm-teal);
+}
+
+#quiz-pane .form-check-input:focus {
+  border-color: var(--cm-teal);
+  box-shadow: 0 0 0 0.22rem rgba(109, 196, 200, 0.45);
+  outline: none;
+}
+
+#quiz-pane .form-check-input:checked {
+  background-color: var(--cm-ink);
+  border-color: var(--cm-ink);
+}

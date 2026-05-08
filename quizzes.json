@@ -1,29 +1,289 @@
 {
   "quizzes": [
-    { "id": "causal-coding", "file": "content/01-causal-coding.md", "title": "Causal coding" },
-    { "id": "causal-claims", "file": "content/02-causal-claims.md", "title": "Causal claims" },
-    { "id": "factors", "file": "content/03-factors.md", "title": "Factors" },
-    { "id": "factor-labels", "file": "content/04-factor-labels.md", "title": "Factor labels" },
-    { "id": "zooming", "file": "content/05-zooming.md", "title": "Zooming" },
-    { "id": "interpreting-opposites", "file": "content/06-interpreting-opposites.md", "title": "Interpreting opposites" },
-    { "id": "tracing-paths", "file": "content/07-tracing-paths.md", "title": "Tracing paths" },
-    { "id": "first-steps", "file": "content/08-first-steps.md", "title": "First steps in the app" },
-    { "id": "the-interface", "file": "content/09-the-interface.md", "title": "The interface" },
-    { "id": "statement-filters", "file": "content/10-statement-filters.md", "title": "Statement filters" },
-    { "id": "transforms-filters", "file": "content/11-transforms-filters.md", "title": "Transforms filters" },
-    { "id": "files", "file": "content/12-files.md", "title": "Files" },
-    { "id": "coding-in-the-app", "file": "content/13-coding-in-the-app.md", "title": "Coding in the app" },
-    { "id": "basic-analysis", "file": "content/14-basic-analysis.md", "title": "Analysis in the app" },
-    { "id": "library", "file": "content/15-library.md", "title": "The library" },
-    { "id": "tables", "file": "content/16-tables.md", "title": "Tables" },
-    { "id": "advanced-coding-a", "file": "content/17-advanced-coding-a.md", "title": "Advanced coding (A)" },
-    { "id": "advanced-coding-b", "file": "content/18-advanced-coding-b.md", "title": "Advanced coding (B)" },
-    { "id": "advanced-coding-c", "file": "content/19-advanced-coding-c.md", "title": "Advanced coding (C)" },
-    { "id": "interpreting-hashtags", "file": "content/20-interpreting-hashtags.md", "title": "Interpreting special hashtags" },
-    { "id": "interpreting-source-ids", "file": "content/21-interpreting-source-ids.md", "title": "Interpreting source IDs" },
-    { "id": "interpreting-continuity", "file": "content/22-interpreting-continuity.md", "title": "Interpreting continuity" },
-    { "id": "interpreting-surprise", "file": "content/23-interpreting-surprise.md", "title": "Interpreting 'surprise'" },
-    { "id": "conditional-formats", "file": "content/24-conditional-formats.md", "title": "Conditional formats" },
-    { "id": "advanced-tips", "file": "content/25-advanced-tips.md", "title": "Advanced tips" }
+    {
+      "id": "causal-coding",
+      "file": "content/01-causal-coding.md",
+      "title": "Causal coding"
+    },
+    {
+      "id": "causal-claims",
+      "file": "content/02-causal-claims.md",
+      "title": "Causal claims"
+    },
+    {
+      "id": "factors",
+      "file": "content/03-factors.md",
+      "title": "Factors"
+    },
+    {
+      "id": "factor-labels",
+      "file": "content/04-factor-labels.md",
+      "title": "Factor labels"
+    },
+    {
+      "id": "zooming",
+      "file": "content/05-zooming.md",
+      "title": "Zooming"
+    },
+    {
+      "id": "interpreting-opposites",
+      "file": "content/06-interpreting-opposites.md",
+      "title": "Interpreting opposites"
+    },
+    {
+      "id": "tracing-paths",
+      "file": "content/07-tracing-paths.md",
+      "title": "Tracing paths"
+    },
+    {
+      "id": "first-steps",
+      "file": "content/08-first-steps.md",
+      "title": "First steps in the app"
+    },
+    {
+      "id": "the-interface",
+      "file": "content/09-the-interface.md",
+      "title": "The interface"
+    },
+    {
+      "id": "statement-filters",
+      "file": "content/10-statement-filters.md",
+      "title": "Statement filters"
+    },
+    {
+      "id": "transforms-filters",
+      "file": "content/11-transforms-filters.md",
+      "title": "Transforms filters"
+    },
+    {
+      "id": "files",
+      "file": "content/12-files.md",
+      "title": "Files"
+    },
+    {
+      "id": "coding-in-the-app",
+      "file": "content/13-coding-in-the-app.md",
+      "title": "Coding in the app"
+    },
+    {
+      "id": "basic-analysis",
+      "file": "content/14-basic-analysis.md",
+      "title": "Analysis in the app"
+    },
+    {
+      "id": "library",
+      "file": "content/15-library.md",
+      "title": "The library"
+    },
+    {
+      "id": "tables",
+      "file": "content/16-tables.md",
+      "title": "Tables"
+    },
+    {
+      "id": "advanced-coding-a",
+      "file": "content/17-advanced-coding-a.md",
+      "title": "Advanced coding (A)"
+    },
+    {
+      "id": "advanced-coding-b",
+      "file": "content/18-advanced-coding-b.md",
+      "title": "Advanced coding (B)"
+    },
+    {
+      "id": "advanced-coding-c",
+      "file": "content/19-advanced-coding-c.md",
+      "title": "Advanced coding (C)"
+    },
+    {
+      "id": "interpreting-hashtags",
+      "file": "content/20-interpreting-hashtags.md",
+      "title": "Interpreting special hashtags"
+    },
+    {
+      "id": "interpreting-source-ids",
+      "file": "content/21-interpreting-source-ids.md",
+      "title": "Interpreting source IDs"
+    },
+    {
+      "id": "interpreting-continuity",
+      "file": "content/22-interpreting-continuity.md",
+      "title": "Interpreting continuity"
+    },
+    {
+      "id": "interpreting-surprise",
+      "file": "content/23-interpreting-surprise.md",
+      "title": "Interpreting 'surprise'"
+    },
+    {
+      "id": "conditional-formats",
+      "file": "content/24-conditional-formats.md",
+      "title": "Conditional formats"
+    },
+    {
+      "id": "advanced-tips",
+      "file": "content/25-advanced-tips.md",
+      "title": "Advanced tips"
+    },
+    {
+      "id": "task3-individual-intro",
+      "file": "content/26-task3-individual-intro.md",
+      "title": "Task 3 \u2014 Individual questions (intro)"
+    },
+    {
+      "id": "task3-individual-views",
+      "file": "content/27-task3-individual-views.md",
+      "title": "Task 3 \u2014 Individual views across sources"
+    },
+    {
+      "id": "task3-summarising",
+      "file": "content/28-task3-summarising.md",
+      "title": "Task 3 \u2014 Summarising what sources say overall"
+    },
+    {
+      "id": "task3-vignettes",
+      "file": "content/29-task3-vignettes.md",
+      "title": "Task 3 \u2014 Typical-source vignettes"
+    },
+    {
+      "id": "task3-narratives-behind-pattern",
+      "file": "content/30-task3-narratives-behind-pattern.md",
+      "title": "Task 3 \u2014 Narratives behind a pattern"
+    },
+    {
+      "id": "task3-frequency-most",
+      "file": "content/31-task3-frequency-most.md",
+      "title": "Task 3 \u2014 Factors and links appearing most often"
+    },
+    {
+      "id": "task3-mention-count",
+      "file": "content/32-task3-mention-count.md",
+      "title": "Task 3 \u2014 Counts of mentions (how often cited)"
+    },
+    {
+      "id": "task3-main-outcomes",
+      "file": "content/33-task3-main-outcomes.md",
+      "title": "Task 3 \u2014 Main outcomes on the map"
+    },
+    {
+      "id": "task3-main-drivers",
+      "file": "content/34-task3-main-drivers.md",
+      "title": "Task 3 \u2014 Main drivers on the map"
+    },
+    {
+      "id": "task3-split-groups",
+      "file": "content/35-task3-split-groups.md",
+      "title": "Task 3 \u2014 Splitting analyses by subgroup"
+    },
+    {
+      "id": "task3-comparing-groups-factors",
+      "file": "content/36-task3-comparing-groups-factors.md",
+      "title": "Task 3 \u2014 Comparing factors across groups"
+    },
+    {
+      "id": "task3-identifying-groups-pattern",
+      "file": "content/37-task3-identifying-groups-pattern.md",
+      "title": "Task 3 \u2014 Identifying distinct subgroup patterns"
+    },
+    {
+      "id": "task3-emerging-unexpected",
+      "file": "content/38-task3-emerging-unexpected.md",
+      "title": "Task 3 \u2014 Emerging / unexpected themes"
+    },
+    {
+      "id": "task3-evidence-vs-theory",
+      "file": "content/39-task3-evidence-vs-theory.md",
+      "title": "Task 3 \u2014 Evidence versus your programme theory"
+    },
+    {
+      "id": "task3-systems-change-angle",
+      "file": "content/40-task3-systems-change-angle.md",
+      "title": "Task 3 \u2014 Assessing broader systems change"
+    },
+    {
+      "id": "task3-sentiment-changes",
+      "file": "content/41-task3-sentiment-changes.md",
+      "title": "Task 3 \u2014 Sentiment of reported changes"
+    },
+    {
+      "id": "task3-focus-factors",
+      "file": "content/42-task3-focus-factors.md",
+      "title": "Task 3 \u2014 Focusing analyses on chosen factors"
+    },
+    {
+      "id": "task3-downstream",
+      "file": "content/43-task3-downstream.md",
+      "title": "Task 3 \u2014 Looking downstream along chains"
+    },
+    {
+      "id": "task3-upstream",
+      "file": "content/44-task3-upstream.md",
+      "title": "Task 3 \u2014 Looking upstream (drivers feeding a factor)"
+    },
+    {
+      "id": "task3-table-fields",
+      "file": "content/45-task3-table-fields.md",
+      "title": "Task 3 \u2014 Names of tables and fields - reading outputs"
+    },
+    {
+      "id": "task3-path-tracing",
+      "file": "content/46-task3-path-tracing.md",
+      "title": "Task 3 \u2014 Path tracing across multiple hops"
+    },
+    {
+      "id": "task3-source-tracing-concordance",
+      "file": "content/47-task3-source-tracing-concordance.md",
+      "title": "Task 3 \u2014 Source tracing for concordance"
+    },
+    {
+      "id": "task3-robustness-fragility",
+      "file": "content/48-task3-robustness-fragility.md",
+      "title": "Task 3 \u2014 Robustness / fragility of a pattern"
+    },
+    {
+      "id": "task3-counting-influence",
+      "file": "content/49-task3-counting-influence.md",
+      "title": "Task 3 \u2014 Counting and comparing directional influence"
+    },
+    {
+      "id": "task3-map-properties-structure",
+      "file": "content/50-task3-map-properties-structure.md",
+      "title": "Task 3 \u2014 Map properties - structure viewpoint"
+    },
+    {
+      "id": "task3-map-properties-meanings",
+      "file": "content/51-task3-map-properties-meanings.md",
+      "title": "Task 3 \u2014 Map properties - meaning of constructs"
+    },
+    {
+      "id": "task3-map-properties-arguments",
+      "file": "content/52-task3-map-properties-arguments.md",
+      "title": "Task 3 \u2014 Map properties - lines of evidence"
+    },
+    {
+      "id": "task3-map-properties-explanatory",
+      "file": "content/53-task3-map-properties-explanatory.md",
+      "title": "Task 3 \u2014 Map properties - explanatory power"
+    },
+    {
+      "id": "task3-combining-questions",
+      "file": "content/54-task3-combining-questions.md",
+      "title": "Task 3 \u2014 Combining analytic questions sequentially"
+    },
+    {
+      "id": "task3-tribes",
+      "file": "content/55-task3-tribes.md",
+      "title": "Task 3 \u2014 Tribes (most different groups)"
+    },
+    {
+      "id": "task3-group-custom-links",
+      "file": "content/56-task3-group-custom-links.md",
+      "title": "Task 3 \u2014 Group data mapped to custom link fields"
+    },
+    {
+      "id": "task3-hierarchical-coding-zoom",
+      "file": "content/57-task3-hierarchical-coding-zoom.md",
+      "title": "Task 3 \u2014 Hierarchical zoom on summary maps"
+    }
   ]
 }
