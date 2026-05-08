@@ -32,6 +32,14 @@ body {
   min-width: 0;
 }
 
+/* Full PNG wordmark scales within narrow sidebar */
+.cm-brand-logo {
+  width: auto;
+  max-width: 100%;
+  max-height: 72px;
+  height: auto;
+}
+
 .cm-wordmark {
   font-family: "Kiwi Maru", Georgia, serif;
   font-weight: 500;
