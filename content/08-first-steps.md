@@ -16,7 +16,7 @@ y The bigger the screen, the better
 You should zoom your screen in to get maximum font size
 y You should zoom your screen out to fit everything on
 
-![image-20220302175022190](_assets/image-20220302175022190.png)In the file chooser at the top-left, you can see:
+![image-20220302175022190](../images/image-20220302175022190.png)In the file chooser at the top-left, you can see:
 y All the files to which you have access to view, copy or edit
 Everybody's files
 Only the files which you can edit

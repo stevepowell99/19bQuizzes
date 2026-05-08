@@ -7,7 +7,8 @@
     return s
       .replaceAll("-->", "\u2192")
       .replaceAll("///", "\n\n")
-      .replaceAll("_assets/", "images/");
+      // Obsidian-compatible paths in markdown: ../images/... ; web resolves from index.html as images/
+      .replaceAll("../images/", "images/");
   }
 
   /** Split optional YAML front matter; return { meta, body } */

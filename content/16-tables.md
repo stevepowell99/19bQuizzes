@@ -23,13 +23,13 @@ y How central is the factor in the map
 How many sources mentioned this factor
 How many links come out of this factor
 
-This is a screenshot of the mentions table showing source count of factor labels, which was the most commonly cited influencing factor?![example-file-hannah-mentions_table-1224603](_assets/example-file-hannah-mentions_table-1224603.png)
+This is a screenshot of the mentions table showing source count of factor labels, which was the most commonly cited influencing factor?![example-file-hannah-mentions_table-1224603](../images/example-file-hannah-mentions_table-1224603.png)
 Health behaviour
 y Increased knowledge
 Diet improved
 Improved health
 
-This is a screenshot of the factors table showing source count of factor labels. How many sources mentioned a factor label with the memo 'finance' in this table? ![example-file-hannah-factors_table (2)](_assets/example-file-hannah-factors_table.png)
+This is a screenshot of the factors table showing source count of factor labels. How many sources mentioned a factor label with the memo 'finance' in this table? ![example-file-hannah-factors_table (2)](../images/example-file-hannah-factors_table.png)
 19
 18
 17
