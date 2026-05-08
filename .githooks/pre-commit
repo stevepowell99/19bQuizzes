@@ -1,16 +1,25 @@
 #!/bin/sh
-# Delete Explorer-generated desktop.ini under the repo before commit (matches theorymaker; excludes .git).
-# Enable hooks (once per clone): git config core.hooksPath .githooks
+# Remove desktop.ini: under .git it poisons refs (e.g. fatal: bad object refs/desktop.ini);
+# elsewhere it is Explorer noise. Enable: git config core.hooksPath .githooks
 set -eu
 
 ROOT="$(git rev-parse --show-toplevel 2>/dev/null || pwd)"
 
-COUNT="$(find "$ROOT" \( -path "$ROOT/.git" -o -path "$ROOT/.obsidian" \) -prune -o -type f -iname 'desktop.ini' -print | wc -l | tr -d '[:space:]')"
-if [ "${COUNT:-0}" != "0" ]; then
-  # -delete implies -depth and conflicts with -prune on Git for Windows/find; rm via -exec is fine.
+# 1) Inside .git only (do not prune — these are never valid ref objects)
+N_GIT="$(find "$ROOT/.git" -type f -iname 'desktop.ini' -print 2>/dev/null | wc -l | tr -d '[:space:]')"
+if [ "${N_GIT:-0}" != "0" ]; then
+  find "$ROOT/.git" -type f -iname 'desktop.ini' -exec rm -f {} + 2>/dev/null || true
+fi
+
+# 2) Worktree, skip .git and .obsidian (-delete would conflict with -prune on Windows find)
+N_WS="$(find "$ROOT" \( -path "$ROOT/.git" -o -path "$ROOT/.obsidian" \) -prune -o -type f -iname 'desktop.ini' -print | wc -l | tr -d '[:space:]')"
+if [ "${N_WS:-0}" != "0" ]; then
   find "$ROOT" \( -path "$ROOT/.git" -o -path "$ROOT/.obsidian" \) -prune -o -type f -iname 'desktop.ini' -exec rm -f {} +
   git add -u >/dev/null 2>&1
-  echo "pre-commit: deleted ${COUNT} desktop.ini file(s)"
+fi
+
+if [ "${N_GIT:-0}" != "0" ] || [ "${N_WS:-0}" != "0" ]; then
+  echo "pre-commit: removed desktop.ini (under .git: ${N_GIT:-0}, worktree: ${N_WS:-0})"
 fi
 
 exit 0
