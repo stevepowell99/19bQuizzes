@@ -1,0 +1,29 @@
+{
+  "quizzes": [
+    { "id": "causal-coding", "file": "content/01-causal-coding.md", "title": "Causal coding" },
+    { "id": "causal-claims", "file": "content/02-causal-claims.md", "title": "Causal claims" },
+    { "id": "factors", "file": "content/03-factors.md", "title": "Factors" },
+    { "id": "factor-labels", "file": "content/04-factor-labels.md", "title": "Factor labels" },
+    { "id": "zooming", "file": "content/05-zooming.md", "title": "Zooming" },
+    { "id": "interpreting-opposites", "file": "content/06-interpreting-opposites.md", "title": "Interpreting opposites" },
+    { "id": "tracing-paths", "file": "content/07-tracing-paths.md", "title": "Tracing paths" },
+    { "id": "first-steps", "file": "content/08-first-steps.md", "title": "First steps in the app" },
+    { "id": "the-interface", "file": "content/09-the-interface.md", "title": "The interface" },
+    { "id": "statement-filters", "file": "content/10-statement-filters.md", "title": "Statement filters" },
+    { "id": "transforms-filters", "file": "content/11-transforms-filters.md", "title": "Transforms filters" },
+    { "id": "files", "file": "content/12-files.md", "title": "Files" },
+    { "id": "coding-in-the-app", "file": "content/13-coding-in-the-app.md", "title": "Coding in the app" },
+    { "id": "basic-analysis", "file": "content/14-basic-analysis.md", "title": "Analysis in the app" },
+    { "id": "library", "file": "content/15-library.md", "title": "The library" },
+    { "id": "tables", "file": "content/16-tables.md", "title": "Tables" },
+    { "id": "advanced-coding-a", "file": "content/17-advanced-coding-a.md", "title": "Advanced coding (A)" },
+    { "id": "advanced-coding-b", "file": "content/18-advanced-coding-b.md", "title": "Advanced coding (B)" },
+    { "id": "advanced-coding-c", "file": "content/19-advanced-coding-c.md", "title": "Advanced coding (C)" },
+    { "id": "interpreting-hashtags", "file": "content/20-interpreting-hashtags.md", "title": "Interpreting special hashtags" },
+    { "id": "interpreting-source-ids", "file": "content/21-interpreting-source-ids.md", "title": "Interpreting source IDs" },
+    { "id": "interpreting-continuity", "file": "content/22-interpreting-continuity.md", "title": "Interpreting continuity" },
+    { "id": "interpreting-surprise", "file": "content/23-interpreting-surprise.md", "title": "Interpreting 'surprise'" },
+    { "id": "conditional-formats", "file": "content/24-conditional-formats.md", "title": "Conditional formats" },
+    { "id": "advanced-tips", "file": "content/25-advanced-tips.md", "title": "Advanced tips" }
+  ]
+}

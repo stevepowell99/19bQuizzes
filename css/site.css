@@ -1,0 +1,71 @@
+/* Causal Map palette (from original learnr custom_css) */
+:root {
+  --cm-navy: #1f1f36;
+  --cm-teal: #6dc4c8;
+  --cm-mint: #00ffaf;
+}
+
+body {
+  font-size: 1.05rem;
+}
+
+/* LHS sidebar */
+.cm-sidebar {
+  width: 100%;
+  max-width: 100%;
+}
+
+@media (min-width: 992px) {
+  .cm-sidebar {
+    width: 280px;
+    max-width: 280px;
+    flex: 0 0 280px;
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
+    max-height: 100vh;
+    overflow-y: auto;
+  }
+}
+
+.cm-brand-text {
+  min-width: 0;
+}
+
+.cm-wordmark {
+  font-family: "Kiwi Maru", Georgia, serif;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.25;
+  color: var(--cm-navy);
+}
+
+/* TOC links */
+#toc-nav .nav-link {
+  color: var(--cm-navy);
+  border-radius: 0.375rem;
+  padding: 0.45rem 0.75rem;
+}
+
+#toc-nav .nav-link:hover {
+  background: rgba(109, 196, 200, 0.15);
+}
+
+#toc-nav .nav-link.active {
+  background: var(--cm-navy);
+  color: #fff;
+}
+
+.cm-main {
+  min-width: 0;
+}
+
+.multi-hint {
+  color: var(--cm-teal);
+  font-size: 0.85rem;
+}
+
+.quiz-stem img {
+  max-width: 100%;
+  height: auto;
+}

@@ -1,0 +1,3 @@
+# Static site: open repo folder as publish root; no build step required.
+[build]
+  publish = "."
