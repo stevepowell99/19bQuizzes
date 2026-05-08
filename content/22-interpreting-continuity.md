@@ -2,6 +2,8 @@
 title: Interpreting continuity
 ---
 
+> Check out these links from the Garden: [Path tracing](https://garden.causalmap.app/path-tracing/) | [Path tracing filter](https://garden.causalmap.app/path-tracing-filter/)
+
 ![image-20220318110246116](../images/image-20220318110246116.png)
 The influence of T (Receiving health training) on I is mediated by B.
 y There is evidence that T influenced B and there is evidence that B influenced I. 

@@ -2,6 +2,8 @@
 title: Factor labels
 ---
 
+> Check out these links from the Garden: [Plain coding](https://garden.causalmap.app/plain-coding/) | [Bulk relabel](https://garden.causalmap.app/howto-bulk-relabel/)
+
 Which of the following are good tips for writing good factor labels?
 y Make sure labels are easy to understand even without a lot of context
 y Ensure labels are concise

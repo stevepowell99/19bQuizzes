@@ -2,6 +2,8 @@
 title: Factors
 ---
 
+> Check out these links from the Garden: [Minimalist coding](https://garden.causalmap.app/minimalist/) | [Feedback loops](https://garden.causalmap.app/feedback-loops/)
+
 In causal mapping we identify influence factors, which are:
 All events a respondent mentions
 y Factors which influence other factors

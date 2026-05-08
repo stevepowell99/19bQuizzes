@@ -2,6 +2,8 @@
 title: Analysis in the app
 ---
 
+> Check out these links from the Garden: [Filter links tab](https://garden.causalmap.app/filter-link-tab/) | [Map formatting](https://garden.causalmap.app/howto-map-formatting/)
+
 Which of these is true about coding: 
 You must always complete all your coding before using the filters to explore and analyse your map
 y As you continue coding, you will sometimes use the filters to reflect on your work so far

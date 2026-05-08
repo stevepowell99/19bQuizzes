@@ -2,6 +2,8 @@
 title: Causal coding
 ---
 
+> Check out these links from the Garden: [Minimalist coding](https://garden.causalmap.app/minimalist/) | [Why minimalist](https://garden.causalmap.app/why-minimalist/)
+
 Which of these is the clearest example of a causal claim?
 I added the butter and then added the nuts
 She wants to earn more money

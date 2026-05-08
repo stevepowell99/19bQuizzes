@@ -52,8 +52,16 @@
       .split(/\r?\n\r?\n+/)
       .map((b) => b.trim())
       .filter(Boolean);
-    const questions = blocks.map(parseQuestionBlock).filter(Boolean);
-    return { meta, questions };
+    // Leading paragraphs that are not quiz blocks (e.g. Garden links) render above questions
+    const introChunks = [];
+    const questions = [];
+    for (const b of blocks) {
+      const q = parseQuestionBlock(b);
+      if (q) questions.push(q);
+      else if (!questions.length) introChunks.push(applyLearnrTransforms(b));
+    }
+    const introMd = introChunks.join("\n\n");
+    return { meta, introMd, questions };
   }
 
   /** Shuffle copy Fisher-Yates, seeded per quiz+q index so order stable across revisits until reload */
@@ -219,6 +227,16 @@
     quizTitleEl.textContent = parsed.meta.title || entry.title;
 
     quizBodyEl.innerHTML = "";
+    if (parsed.introMd) {
+      const introEl = document.createElement("div");
+      introEl.className = "quiz-intro mb-4 text-secondary";
+      introEl.innerHTML = marked.parse(parsed.introMd, { breaks: true });
+      introEl.querySelectorAll("a[href]").forEach((a) => {
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+      });
+      quizBodyEl.appendChild(introEl);
+    }
     const prog = loadProgress()[id] || {};
 
     parsed.questions.forEach((q, qi) => {

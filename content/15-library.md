@@ -2,6 +2,8 @@
 title: The library
 ---
 
+> Check out these links from the Garden: [Bookmarks & reports](https://garden.causalmap.app/bookmarks-reports/) | [Bookmarks panel](https://garden.causalmap.app/bookmarks-panel/)
+
 How can you open the dashboard? 
 y Click the yellow button in the right-hand corner of the screen
 Press Alt+q (Windows/Linux) or option+q (Mac)

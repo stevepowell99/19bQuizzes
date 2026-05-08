@@ -2,6 +2,8 @@
 title: Transforms filters
 ---
 
+> Check out these links from the Garden: [Extensions overview](https://garden.causalmap.app/extensions/) | [Path tracing filter](https://garden.causalmap.app/path-tracing-filter/)
+
 What is the main purpose of transforms filters in Causal Map?
 y To enhance, simplify or modify the structure of the map for analysis.
 To translate the data into different languages for international collaboration.

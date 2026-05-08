@@ -2,6 +2,8 @@
 title: Coding in the app
 ---
 
+> Check out these links from the Garden: [Manual coding walkthrough](https://garden.causalmap.app/howto-manual-code/) | [Create links tab](https://garden.causalmap.app/create-link-tab/)
+
 In the statements panel, what does the Globe icon icon:globe do?
 y It creates a link, quoting the whole of the statement
 It quotes the same text again which you previously quoted

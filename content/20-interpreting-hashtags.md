@@ -2,6 +2,8 @@
 title: Interpreting special hashtags
 ---
 
+> Check out these links from the Garden: [Create links tab](https://garden.causalmap.app/create-link-tab/) | [Link tags filter](https://garden.causalmap.app/link-tags-filter/)
+
 What is the best way to interpret this map? ![image-20220309082714458](../images/image-20220309082714458.png)
 Funds from local government probably led to a reduction in flood risk
 There is evidence that funds from local government probably contributed to a reduction in flood risk

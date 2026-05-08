@@ -2,6 +2,8 @@
 title: Files
 ---
 
+> Check out these links from the Garden: [Upload documents](https://garden.causalmap.app/upload-documents/) | [Versioning](https://garden.causalmap.app/versioning/)
+
 What is the first step(s) in uploading data to Causal Map?
 y Preparing your data in a compatible format before uploading.
 Converting your data into a proprietary format.

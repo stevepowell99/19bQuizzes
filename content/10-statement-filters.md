@@ -2,6 +2,8 @@
 title: Statement filters
 ---
 
+> Check out these links from the Garden: [Filter overview](https://garden.causalmap.app/filter-system-overview/) | [Sources panel](https://garden.causalmap.app/sources-panel/)
+
 What is the primary function of statement filters in Causal Map?
 y To refine the data set by including or excluding specific statements based on criteria.
 To change the color of statements for visual differentiation.

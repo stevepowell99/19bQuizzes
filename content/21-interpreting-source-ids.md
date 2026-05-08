@@ -2,6 +2,8 @@
 title: Interpreting source IDs
 ---
 
+> Check out these links from the Garden: [Sources & links on the map](https://garden.causalmap.app/answers-sources-links-factors/) | [Path tracing](https://garden.causalmap.app/path-tracing/)
+
 What is the best way to interpret this map? ![image-20220322123543264](../images/image-20220322123543264.png)
 Income leads to improved nutrition.
 One respondent said income led to nutrition for them.

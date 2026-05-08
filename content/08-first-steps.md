@@ -2,6 +2,8 @@
 title: First steps in the app
 ---
 
+> Check out these links from the Garden: [Getting started](https://garden.causalmap.app/app/) | [Manual coding walkthrough](https://garden.causalmap.app/howto-manual-code/)
+
 What is Causal Map most useful for?
 All kinds of qualitative coding
 y Mainly for coding causal claims

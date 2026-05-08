@@ -2,6 +2,8 @@
 title: Zooming
 ---
 
+> Check out these links from the Garden: [Zoom filter](https://garden.causalmap.app/zoom-filter/) | [Plain coding](https://garden.causalmap.app/plain-coding/)
+
 Read this hierarchical factor label ///‘Organisation X; Agricultural input; New water pump’. ///If the zoom level is set to 2 what will you see?
 Organisation X; Agricultural input; New water pump
 y Organisation X; Agricultural input

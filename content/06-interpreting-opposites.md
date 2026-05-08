@@ -2,6 +2,8 @@
 title: Interpreting opposites
 ---
 
+> Check out these links from the Garden: [Combine opposites filter](https://garden.causalmap.app/combine-opposites-filter/) | [Opposites & sentiment](https://garden.causalmap.app/opposites-sentiment/)
+
 (Remembering that `~` can be read as 'poor/lacking/none' ...) ![image-20220324104154450](../images/image-20220324104154450.png) 
 Respondents reported more plant eating bugs has resulted in increased crop yield
 More plant eating bugs has reduced crop yield

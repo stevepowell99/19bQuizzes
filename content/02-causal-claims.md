@@ -2,6 +2,8 @@
 title: Causal claims
 ---
 
+> Check out these links from the Garden: [Why minimalist](https://garden.causalmap.app/why-minimalist/) | [Minimalist coding](https://garden.causalmap.app/minimalist/)
+
 The earthquake made the house fall down
 y yes, it's causal
 no, it isn't causal

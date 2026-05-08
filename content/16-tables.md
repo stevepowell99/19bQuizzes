@@ -2,6 +2,8 @@
 title: Tables
 ---
 
+> Check out these links from the Garden: [Links table](https://garden.causalmap.app/links-table/) | [Sources table](https://garden.causalmap.app/sources-table/)
+
 Which of the following are true?
 y You can save a link to a filtered table using the library
 y You can download any table as an excel fo further anlaysis

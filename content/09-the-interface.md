@@ -2,6 +2,8 @@
 title: The interface
 ---
 
+> Check out these links from the Garden: [App layout](https://garden.causalmap.app/application-layout/) | [Projects panel](https://garden.causalmap.app/projects-panel/)
+
 ![Screenshot 2022-11-04 at 10.58.07](../images/Screenshot 2022-11-04 at 10.58.07.png)You have just loaded a file from the dropdown list and you see this orange symbol to the right of the dropdown list, what does it mean?
 You can edit this file.
 y You can cannot edit this file but you can make a copy which you can then edit.
