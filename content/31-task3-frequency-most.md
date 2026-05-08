@@ -7,13 +7,13 @@ title: Task 3 — Factors and links appearing most often
 
 A straightforward "frequency" style analysis usually highlights:
 y Which factors or links show up across many quotations when your current filters apply
-Whichever mechanically simplest links happen to expose exactly paired codes regardless of multiplicity, subgroup filters, or theory-of-change exclusions active in-session
-Highest literal character counts inside extracted quotations irrespective of causal directionality coded or substantive overlap between differently worded respondent claims
-Rare ghost factors purposely filtered out beforehand so dashboards emphasise artefacts nobody referenced — useful when challenging coding discipline rather than surfaced insight
+Whatever shows up as a simple pair of codes, even if subgroup filters or TOC slices would hide most of what's going on.
+The longest quotes in characters, ranked as frequency — without caring whether the causal direction or the idea is really the same as another line.
+Factors you already filtered out on purpose, so the chart highlights things nobody in the room actually mentioned.
 
 High frequency generally suggests — but does not magically prove:
 y Themes that recur in the corpus *as coded under your lens*
-Transferable causal laws replicated identically beyond your sampling frame purely because pooled arrows repeat across filtered respondents internally
-Uniformly identical mechanistic agreement among respondents simply because summed link weights appear prominently without reviewing divergent explanatory clauses or opposing sentiment tags
-Automatically suspect coding artefacts whenever prominence spikes — without first checking glossary merges, synonyms, subgroup balances, or whether filters artificially inflate counts
+General laws for any setting, proved by the fact that arrows repeat inside this filtered dataset.
+Rough agreement among everyone about the mechanism, because the summed weights look big — you don't need to read where people disagree or tagged mixed sentiment.
+A spike usually means miscoding — before you'd check merges, synonyms, group balance, or whether the filter stacked the counts.
 hint High scores do not mean automatic certainty outside your corpus and filters — always sense-check quotations.

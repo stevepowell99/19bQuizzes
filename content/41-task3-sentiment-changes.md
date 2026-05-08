@@ -7,12 +7,12 @@ title: Task 3 — Sentiment of reported changes
 
 Link-level sentiment (positive, negative, or neutral directional change) captures:
 y Whether coded claims describe increase, decrease, or no directional change relative to wording convention
-An evaluator's subjective comfort diary recorded after coding shifts rather than the directional change wording respondents actually conveyed in excerpts attached to arrows
-Automatically inferred temperament scores extrapolated holistically from audio waveforms—even when directional coding rules were defined only around explicit respondent claims in text
-Citation counts annexed after bibliographies or reference lists misread as if they indicate sentiment polarity affecting the substantive causal proposition coded on the link itself
+How upbeat the coder felt after each transcript — not explicitly how respondents described change in excerpts attached to links.
+Rough mood scores scraped from waveform audio — even though rules said code only directional language they gave you in writing.
+Citation counts pasted after annex tables — mistakenly read as whether the causal arrow carried positive versus negative directional wording.
 
 If sentiment metadata is scarce in a project:
 y Summaries stressing sentiment may be weaker — caveat or widen coding before big claims
-Writing emphatic polarity headlines even though tagging coverage across links is visibly thin relative to multiplicity behind non-sentiment-coded chains you still juxtapose boldly
-Reorder entire codebooks alphabetically expecting mechanical sorts to magically raise sentiment tagging coverage before reviewers reopen gaps in actual coded links
-Assume a single export glitch hid all sentiment-coded rows indefinitely instead of inspecting filter states, exclusions, or whether tagging guidance was inconsistently applied
+Write bold polarity headlines while sentiment tagging covers barely any links beside dense non-sentiment chains you juxtapose boldly.
+Alphabetise codebooks mechanically — believing sort order magically raises tagging coverage rather than tightening coding guidance.
+Treat one botched PDF export as the reason sentiment rows vanished — before checking filters, exclusions, or inconsistent tagging norms across coders.

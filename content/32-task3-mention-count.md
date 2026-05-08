@@ -7,12 +7,12 @@ title: Task 3 — Counts of mentions (how often cited)
 
 A "mentions" angle often counts:
 y Sources (or quotations) touching a factor or link under active filters — read the app's definition for each table
-Raw character counts of factor labels only, treating coding metadata as the sole population counted rather than underlying respondent references returned by each table view
-Session-level bookmark tallies aggregated across facilitator laptops instead of multiplicity implied by quotations behind links under active exclusions
-Automatically zero-valued respondents surfaced because filters exclude coded material — misread as "nobody cited anything substantive" rather than artefacts of narrowing criteria
+Counting characters in factor labels, rather than what each table means by sources or quotes behind your current filters.
+Treating local bookmark counts on someone's laptop as "how many people said it," instead of the app's row definitions under active filters.
+Seeing zeros and reading them as "nobody mentioned this," without checking whether a tight filter simply hid the relevant quotes.
 
 If two analysts get different counts, what is usually the **first** place to reconcile?
 y Matching which filters each person applied (sources, transforms, exclusions)
-Blaming deterministic miscount bugs before comparing bookmarks, exclusions, synonym merges, subgroup slices, or whether each analyst exported pivots keyed to subtly different glossary versions
-Continuing forward with discrepant dashboards while assuming intuitive geometry matches silently even when filter stacks diverge materially between screenshots
-Purging whichever low-count drivers feel inconvenient narratively rather than diagnosing whether narrower filters asymmetrically attenuate multiplicity across analysts
+Blame the app for miscounts before aligning bookmarks, exclusions, synonyms, subgroups, or two different spreadsheet exports.
+Carry on: if the two maps look roughly similar, small number differences don't need a filter-by-filter check.
+Drop awkward low-count links from the story instead of asking whether one analyst used a narrower filter than the other.

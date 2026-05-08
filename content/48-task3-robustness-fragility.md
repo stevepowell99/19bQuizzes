@@ -7,12 +7,12 @@ title: Task 3 — Robustness / fragility of a pattern
 
 A fragile pattern is broadly one where:
 y Small sensible filter tweaks or removing a minority of sources noticeably changes headline emphasis
-Purely aesthetic complaints about edge colours or layout density, mistaken for substantive critique of whether the pattern survives when you adjust defensible coding or filter choices
-Uniformly high spelling fidelity across respondents, wrongly treated as a proxy for thematic stability of coded claims when sample composition or skip patterns still drive results
-Identical numeric tables after two exports, incorrectly read as proof robustness even when you never varied filters, exclusions, or theory coding between exports
+You critique edge colour or clutter as if robustness hinged on cosmetics — sidestep sensible filter or coding checks that would show whether emphasis holds.
+Flawless spelling in quotes feels like thematic stability evidence — forgetting to probe uneven sampling or skip patterns skewing prominence.
+Duplicate exports match line for line — you treat that as bulletproof even though nobody changed exclusions, TOC filters, or theory tags between pulls.
 
 Simple robustness practice for beginners:
 y Briefly perturb filters (/ remove obvious outliers after checking quotes) before claiming universality
-Locking the initial filter stack permanently after the first workshop because revisiting settings allegedly invalidates earlier facilitator decisions rather than improving transparency
-Treating the very first on-screen render after import as canonical even before bookmarking reproducible steps collaborators would need to reopen the same analytic slice
-Assuming coding cannot evolve after training, so contradictory later passes are ignored instead of reconciled when testing whether patterns hold under updated guidance
+Seal the bookmark after workshop one — reopening adjustments might embarrass earlier facilitators, so transparency slips.
+Bless the initial import render forever — nobody needs reproducible bookmarks if the first screenshot looked persuasive.
+Treat workshop training manuals as outlawing mid-project relabel passes — shrug off clashing coders instead of aligning guidance before judging stability tests.

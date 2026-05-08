@@ -7,12 +7,12 @@ title: Task 3 — Combining analytic questions sequentially
 
 Chaining analytic questions (≠ concatenating quotations randomly) commonly means:
 y Applying a sequence of purposeful filters/transforms aligned to successive sub-questions before synthesis
-Collating unrelated bookmark IDs into one graphic without a documented rationale for how each step answers a defined sub-question prior to synthesis
-Publishing every intermediate tweak as a separate final claim without archiving reproducible settings partners would need to distinguish exploratory clicks from conclusions
-Disabling version history or shared libraries so nobody can tell which filter stack produced which graphic, under the guise of moving quickly
+Drop unrelated bookmarks onto one slide — without saying which analytic step each answered before synthesis.
+Push every exploratory tweak externally as final — reproducible bookmarks or notes never attach to interim states.
+Race ahead with version control switched off — partners can't reconstruct which clicks produced headline graphics — time pressure wins.
 
 Documenting intermediate states helps because:
 y Partners can reproduce headline graphics by replaying bookmarks or exported settings
-Intentionally slowing collaborators by burying steps in private notes rather than sharing reproducible bookmarks or settings files alongside graphics
-Substituting documentation for informed consent or governance processes that still require explicit ethical review of how slices are reported
-Relying on memory instead of saved bookmarks or exported settings, so partners cannot replay the filter path that produced headline maps after facilitators switch laptops.
+Keep filter steps only in personal notes — sharing bookmarks slows the team down — reproducibility slips.
+Document filters internally, ship subgroup tables to new audiences without a renewed ethics routing — the appendix should suffice as clearance.
+Lean on habit memory — skip saving bookmarks — later sessions can't rerun the slice after someone switches PCs.

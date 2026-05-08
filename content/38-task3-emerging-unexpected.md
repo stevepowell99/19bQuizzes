@@ -7,12 +7,12 @@ title: Task 3 — Emerging / unexpected themes
 
 An "unexpected" factor in exploratory Task 3 work is essentially:
 y A causal theme highlighted by corpus patterns that weren't your headline hypothesis going in
-Treating unusually long textual labels as diagnostic of spurious novelty rather than investigating whether merges, multilingual phrasing, or zoom levels hide substantive convergence with known themes
-Equating directional sentiment tags exclusively with exploratory surprise instead of distinguishing affect from thematic novelty surfaced by frequency filters or path tracing slices
-Declaring database corruption or sync failure whenever prominence diverges from programme logframes instead of scrutinising coding coverage, exclusions, or genuinely divergent respondent accounts
+Something that looks new only because the label is long or translated — without checking whether it is really the same theme under a merge or a zoom level.
+Mixing up "surprise" in sentiment tags with a genuinely new theme in the frequency or path views.
+Assume the database is broken when the map doesn't match the logframe, instead of checking coding coverage, filters, or real gaps in what people said.
 
 When something unexpected appears, beginners should:
 y Treat it as a hypothesis to chase with quotations and subgroup checks — not as automatic proof
-Suppressing emergent themes quietly to keep reporting aligned with predefined theory-of-change graphics even when multiplicity and quotations warrant visible caveats or coding refinements
-Blaming instrumentation or fieldwork logistics by default rather than revisiting coding guidance, interviewer effects, or whether filters accidentally hide contradictory evidence tied to the same label
-Halting iterative analysis because calendar deadlines forbid revisiting bookmarks even when exploratory filters reveal patterns that materially change evaluation conclusions
+Leave it out of the report so the theory-of-change slide still looks clean, even when quotes would support a caveat.
+Blame the survey tool or field logistics first, instead of coding notes, question wording, or filters that hide counter-evidence.
+Stop iterating because the deadline is fixed, even when a new filter pattern would change the headline story.

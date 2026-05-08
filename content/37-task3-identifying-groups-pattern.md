@@ -7,12 +7,12 @@ title: Task 3 — Identifying distinct subgroup patterns
 
 When we look for subgroup *patterns*, we mean:
 y Structural differences in causal maps or tables aligned to groups — not stereotypes about individuals
-Inferring psychological motives about anonymised respondents from coded arrows rather than describing how filtered maps differ mechanically between operational definitions of groups
-Selectively archiving quotations that undermine tidy cluster narratives instead of archiving transparent bookmark stacks others can reopen for adversarial readings
-Publishing disaggregated identifiers paired with verbatim excerpts without governance review even when exploratory clustering was only meant for internal sense-making
+Guess people's motives from the arrows, instead of spelling out how the groups were defined and what differs on filtered maps.
+File away awkward quotes quietly, rather than saving the bookmark stacks a colleague could reopen to disagree with you.
+Publish IDs next to quotes from an exploratory cluster, without a governance pass — it was only for internal brainstorming.
 
 If two clusters look different on aggregates, prudent next steps include:
 y Sampling quotes behind each cluster and checking overlapping labels
-Locking explanatory prose before textual spot-checking because aggregate geometry already licences stakeholder-facing claims without iterative return to sources
-Declaring analysis complete once facilitator-chosen palettes look distinct instead of diagnosing whether overlapping synonym bundles or uneven evidence bases drive visible separation
-Dismissing label overlap probes as procrastination whenever clusters appear separated graphically despite coding teams documenting partially shared factor wording across slices
+Freeze the write-up as soon as the aggregate map looks split — you can add quotes later if someone insists.
+Call it done when the colours look different, without asking whether shared synonyms or uneven sample size made the gap.
+Skip checking overlapping labels — that's foot-dragging — even when your codebook already shows similar wording in both slices.

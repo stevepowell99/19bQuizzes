@@ -7,12 +7,12 @@ title: Task 3 — Counting and comparing directional influence
 
 Counting causal influence links under chosen filters:
 y Highlights comparatively central factors as represented in quotations — still requiring interpretation
-Rendering narrative reading obsolete because high-level table exports alone are treated as self-sufficient truth without returning to filters, bookmarks, or verbatim mechanism language
-Conflating coded influence metrics with physical production tonnage or financial disbursement fields that happen to share numeric columns in unrelated programme MIS exports
-Assuming PDF export pipelines silently drop quoted clauses whenever network statistics look busy, instead of checking bookmarked filter states and export options you actually used
+Treat the summary table file as authoritative — skim filters and quotes only when totals look surprising.
+Reuse harvest-tonne or disbursement-pound columns beside network stats because they sit in one export — numbers look aligned so they must describe the same causal counts.
+Blame PDF export glitches for missing quotes when network tables look dense — before checking which filters and export options you actually used.
 
 When comparing outward vs inward edge counts:
 y Read directionality consciously — outward links often flag driving claims; inward consequence claims
-Collapsing asymmetric coded claims into undirected ties before comparing degrees even when respondents described one-way influence you would misstate by symmetrising the graph
-Treat arrow direction as stylistic correlation only, ignoring that coding teams recorded which factor was described as influencing which in each excerpt
-Assume any zero row means the counters failed without rereading definitions, denominator rules, or whether active filters legitimately removed all edges touching that factor
+Compare totals after flattening arrows into plain ties — symmetric counts feel tidy — though people often described one-way influence you'd erase.
+Treat arrow styling as decorative — ignore which coded factor was influencing which in excerpts.
+See a zero-degree row and blame broken counters — before revisiting field definitions — filters may legitimately strip every edge touching that factor.

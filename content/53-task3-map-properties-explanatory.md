@@ -7,12 +7,14 @@ title: Task 3 — Map properties - explanatory power
 
 Explanatory power in Task 3 is closer to:
 y Seeing how adequately recurring coded pathways cover important outcomes you investigate
-Assuming omnibus regression R-squared from unrelated dashboard exports quantifies qualitative explanatory coverage without reconciling units, sampling, or what was actually coded
-Bibliographic formatting or citation style choices that change how stakeholders perceive rigour even though they do not alter which mechanisms appear in coded chains under active filters
-Screenshot resolution or slide deck compression artefacts mistaken for weaker evidentiary support instead of revisiting quotations and filter definitions behind the claims
+Explanatory power in Task 3 is closer to:
+y Seeing how adequately recurring coded pathways cover important outcomes you investigate
+Paste an R² from some other dashboard into qualitative slides — without checking what was coded, sampled, or compared.
+Polish reference-list formatting so funders feel the work is rigorous — even though citation style never changes the mechanisms in the map.
+Blame fuzzy slide exports for "weak evidence" — rather than reopening quotes — when compression blurs fine print on screen.
 
 Explanatory claims still need guarding because:
 y Correlation of coded fragments ≠ proof of causal impact in experimental sense
-Assuming quotations forbid caveats so communicators must present coded pathways as deterministic impact findings even when evaluative language should stay conditional
-Believing filters remove epistemic uncertainty rather than deliberately narrowing which fragments you currently compare while transparently naming that lens
-Treating collaborative bookmarks as automatic validation of programme theory without separate design justification for inferential claims beyond descriptive coding coverage
+Use zero-hedge wording in slides — omit "might" — even when qualitative evidence only supports tentative claims about mechanisms.
+Assume active filters erased uncertainty outright — viewers still deserve a sentence naming which slice they're seeing.
+Treat shared bookmarks plus theory tags as formal impact proof — qualitative coverage rarely substitutes for study design justified claims.

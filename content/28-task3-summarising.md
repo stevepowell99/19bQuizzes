@@ -7,12 +7,12 @@ title: Task 3 — Summarising what sources say overall
 
 When we "summarise sources" at a project level in Task 3, what are we aiming for?
 y Broad statements supported by counts or patterns across the corpus (with filters applied)
-Threading long verbatim excerpts back-to-back for every respondent while avoiding any pooled frequency language so audiences never synthesise causal patterns coded in the corpus
-Publishing standalone narrative briefing notes that supersede causal links because storytelling alone is assumed to outperform filtered map/tab outputs for evaluator audiences
-Indexing document management metadata such as literal PDF sizes or OCR character counts rather than analysing coded links and filters when stakeholders ask substantive programme questions
+String together long quotes from each person, and avoid saying how often patterns show up across the dataset.
+Write a narrative briefing and treat it as the main output. The causal map and tables are just background.
+Use things like file size or character counts from documents, instead of what the coded links show under your current filters.
 
 Which idea best fits Task 3 summarisation?
 y Different filters highlight different subsets; summaries should say what subset they refer to
-Assuming immutable headline paragraphs once drafted even when collaborators toggle demographic or theory-of-change slices without revisiting wording or caveat lines
-Treat summaries as interchangeable with heatmap screenshots where arrows simply decorate slides without implying any dependency on bookmarks, exclusions, or link-level evidence summaries
-Assume polished prose removes the diligence of pointing colleagues to underpinning quotations whenever disagreements emerge about multiplicity or contradictory chains
+Lock the headline summary after the first draft, even when people change demographics or TOC filters underneath.
+Treat your summary like a glossy map screenshot. You don't need to say which bookmarks or exclusions it matches.
+Good prose speaks for itself. If someone disputes a chain, you don't always need to open the backing quotes together.

@@ -7,12 +7,12 @@ title: Task 3 — Looking upstream (drivers feeding a factor)
 
 Upstream questioning emphasises:
 y Factors and chains that feed into something you designate as downstream (often an outcome of interest)
-Apparent randomness from automatic graph layouts, misread as substantive uncertainty about contributing causes instead of narrowing path filters or checking provenance on the feeding links
-Analyst bookmark titles or meeting notes rather than the directional links the app returns when path filters isolate plausible feeds into the focal factor under your exclusions
-Transient UI rendering glitches or slow reloads that temporarily hide edges, misinterpreted as missing evidence instead of refreshing or reapplying the same filter bookmarks colleagues used
+Shrug off messy layout arrows as noise about real upstream causes — tighten path filters instead of blaming "random graphs."
+Lean on handwritten bookmark labels from meetings rather than rerun path filters toward the downstream factor you're studying.
+Assume missing edges are browser glitches, not someone else's filter preset — reload before you sync bookmarks.
 
 Path filters help beginners because:
 y They reduce visual clutter limited to plausible routes linking factors you nominate
-They prove statistical significance by themselves so narrative reading and multiplicity checks become optional once a path lights up
-They automatically strip quotation panes or exported evidence tables so audiences focus on geometry without traceability back to sources
-They permanently block exports or collaboration features instead of simply constraining what is visible until you widen filters again
+Once a path highlights, skim quotes loosely — shaded routes feel definitive without checking how many speakers you have.
+Collapse the quotations panel full-time for demos; later audiences never see clause-level support for that path.
+Show a path in a workshop but don't save bookmarks — teammates can't rerun the route you improvised live.

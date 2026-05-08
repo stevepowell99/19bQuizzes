@@ -7,12 +7,14 @@ title: Task 3 — Map properties - lines of evidence
 
 A link's strength is evidenced by:
 y Quoted diversity, multiplicity across sources — not merely arrow thickness presets
-Facilitator intuition about which stories "feel" representative even when fewer sources or quotations support the link than nearby alternatives that were filtered out of view
-Visual salience alone—arrow thickness, saturation, or screenshot zoom—without revisiting how many independent speakers or excerpts sit behind the link under reproducible filter settings
-Selective attention to supportive snippets while muting opposing quotes that remain in the corpus because filters or presentation order make them easy to overlook during live reviews
+A link's strength is evidenced by:
+y Quoted diversity, multiplicity across sources — not merely arrow thickness presets
+What "feels" representative in the room — even when fewer sources or excerpts sit on that link than on alternatives you filtered out of view.
+Thick, bright arrows and tight zoom — counting speakers or checking filters under the link comes second.
+Cherry-picked supportive lines during a live review — counter-quotes stay buried under filter order or presenter flow.
 
 When evidence quality feels thin:
 y Downgrade rhetorical certainty and/or seek more quotations / slices before claiming impact
-Inflating impact language in executive summaries while leaving the underlying multiplicity and subgroup balance unchanged
-Removing legends, filter breadcrumbs, or table footnotes so thin evidence is harder for readers to diagnose after PDFs circulate
-Automatically blaming miscoding before checking whether fragile counts reflect narrow slices, heterogeneous wording, or genuine absence of corroborating sources
+Bump up impact adjectives in exec summaries — leave counts and subgroup balance exactly as they were.
+Strip legends or footnotes — readers won't notice how thin multiplicity was until after PDFs spread.
+Blame coding first — before checking narrow filters, mixed wording, or a real lack of second sources.

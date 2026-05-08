@@ -7,12 +7,12 @@ title: Task 3 — Main outcomes on the map
 
 In Task 3, treating something as an "outcome factor" commonly means:
 y Examining consequences that respondents describe as downstream of other factors — often visually or via summaries
-Labelling evaluator-chosen KPI nodes as outcomes regardless of verbatim chains because programme logframes preempt qualitative reading of respondent-described downstream effects coded in quotations
-Selecting whichever factors sit aesthetically rightward on canvases irrespective of substantive directionality coded or multiplicity behind consequence claims surfaced in summaries
-Prioritising isolates without incident edges as outcomes because emptier nodes signal importance rather than inspecting whether coding excluded relevant downstream arrows during earlier passes
+Marking the KPIs on the logframe as "outcomes," even when respondents talk about different downstream effects in the quotes.
+Choosing factors that sit on the right of the canvas because that looks like an effect, without checking arrow direction or what's in the summaries.
+Preferring isolated dots with few links as "outcomes," because they look important — not asking whether coding or filters removed the arrows that attach to them.
 
 Why ask "what are the main outcomes?" rather than trusting one interview?
 y You want recurrent consequence themes across filtered sources — not anecdotes only
-Elevating charismatic single vignettes captured during pilot interviews whenever they reinforce theory-of-change graphics even though wider filtered multiplicity remains unexamined
-Assuming substantive outcome factors cannot recur across heterogeneous respondents so pooled prominence metrics add no diligence beyond anecdotal voice-of-customer excerpts
-Treat merged arrow bundles as contradictory noise rather than evidence that heterogeneous consequence language might warrant hierarchy zoom or glossary refinement before reporting
+Leading with one strong pilot interview that matches the theory-of-change graphic, and not stress-testing it across the wider filtered corpus.
+Write off map prominence as fluff — substantive outcomes scarcely recur across respondents, so a sharp quote substitutes for multiplicity checks.
+See busy merged arrows as muddled coding noise, instead of a cue to zoom or tidy labels before you report.

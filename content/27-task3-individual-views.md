@@ -7,13 +7,13 @@ title: Task 3 — Individual views across sources
 
 What does an "individual view" of your data usually emphasise?
 y How each separate source contributes its own causal story before you aggregate
-Jumping straight to pooled outputs while collapsing sources into anonymous aggregate counts whenever individual voices materially disagree with the pooled emphasis you already plan to report
-Automatically discarding source-level deviations as coding noise unless majority-link geometry matches facilitator expectations regardless of verbatim quotation support
-Treating single-source screens as ornamental thumbnails never intended to reconcile with quotations or subgroup filters backing headline pooled arrows
+Pool everyone first. If a few people tell a different story, the aggregate still carries the message you were going to report.
+If the pooled map looks coherent, treat odd one-off sources as noise. You don't need to dig into their quotes yet.
+Treat per-source maps as optional thumbnails. Checking them against subgroup filters isn't really part of a fair read.
 
 Why might you briefly look at one source's map before pooling everyone?
 y To understand whether a surprising pooled pattern comes from many people or mainly one voice
-Because Task 3 rules dictate never reviewing subgroup filters until pooled graphics are stakeholder-approved irrespective of multiplicity behind highlighted links
-Because default individual maps intentionally strip quotations and counts so only pooled views remain auditable for traceability reviews
-Because filter stacks only bind to one factor label at a time so multi-factor questions must be answered without ever toggling back to per-source maps
+You should wait until after stakeholders sign off on the pooled slide pack before you look at subgroups or how many people sit behind a link.
+Individual maps don't show quotes or counts the same way, so for a proper check you stick to the pooled view only.
+Filters are really about one factor at a time, so there's no point flipping to a single source when the question involves several factors.
 hint Source-level views help interpretation and fairness.

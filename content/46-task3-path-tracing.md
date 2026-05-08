@@ -7,12 +7,12 @@ title: Task 3 — Path tracing across multiple hops
 
 Path tracing answers questions like: ![](images/Tracingr.png)
 y Along what intermediary factors might influence flow from selected causes toward selected effects?
-That pooled paths can safely be reported as one verbatim chain told by a single speaker without checking filters or sources
-That you never need quotations once a colourful path appears on screen
-That all links displayed together necessarily came from the same interview excerpt
+The coloured path equals one respondent's verbatim chain across all steps — filters and source views don't matter once the route shows.
+Colours replace quotes: if the pathway is clear on screen, you don't need excerpts for hops in between or for who said what.
+If links appear together in one pooled map, assume one interview yielded them all unless an overlay screams otherwise — continuity is the default expectation.
 
 Many-hop paths require cautious reading because:
 y Chains may concatenate claims from multiple sources unless your filters constrain continuity
-Applying a within-source filter that you have not actually enabled, then assuming no further quotation checks are needed because you believe source continuity is guaranteed by default
-Taking edge colour or layout emphasis as purely cosmetic even when those cues still align with specific quotations you have not yet opened for intermediate hops
-Treat vivid multi-hop screenshots as stand-ins for randomised impact evidence or as proof a single respondent narrated every step without checking filter metadata
+Believe continuity is baked in whenever you vaguely remember ticking a within-source rule — skip spot checks on intermediary quotes.
+Assume highlight colours are only for flair — skip opening excerpts that supposedly match each hop anyway.
+Treat a gripping multi-hop image like trial-grade impact evidence — or like proof one person narrated every step — without reading filter captions.
