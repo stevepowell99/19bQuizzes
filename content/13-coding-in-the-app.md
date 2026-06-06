@@ -30,7 +30,7 @@ How can you get an overview of all the links coded for the current source?
 Click the black "book" icon icon:book;
 Click the green "book" icon icon:book;
 Click on the Statements tab and use the table filters to filter by source_id
-y Click on the Links tab and use filter by by source_id
+y Click on the Links tab and use filter by source_id
 
 How would you code 'I got more money from sales of milk and also from selling my chickens'
 y I would put two factors 'selling milk' and 'selling chickens' in the first box and 'got more money' in the second because it is quicker

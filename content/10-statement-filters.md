@@ -27,8 +27,8 @@ y The presence of specific keywords or phrases within the statements.
 y Showing only data from a specific source or sources.
 y Showing only data from a source or sources with particular characteristics, e.g. all women.
 y Showing only data related to a specific question or questions.
-y Showing only only coded statements.
-y Showing only only uncoded statements.
+y Showing only coded statements.
+y Showing only uncoded statements.
 The length of the statements, measured in number of words.
 
 How do statement filters interact with the coding process in Causal Map?

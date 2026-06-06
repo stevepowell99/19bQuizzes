@@ -6,10 +6,10 @@ title: Tables
 
 Which of the following are true?
 y You can save a link to a filtered table using the library
-y You can download any table as an excel fo further anlaysis
+y You can download any table as an Excel file for further analysis
 y The columns available differ from table to table
 
-Which table would you use if you wanted to better understand whether a factor was primarily a influence or consequence?
+Which table would you use if you wanted to better understand whether a factor was primarily an influence or consequence?
 y The mentions table
 The metrics table
 The sources table

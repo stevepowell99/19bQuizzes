@@ -83,17 +83,17 @@
     {
       "id": "advanced-coding-a",
       "file": "content/17-advanced-coding-a.md",
-      "title": "Advanced coding (A)"
+      "title": "Advanced coding (manual)"
     },
     {
       "id": "advanced-coding-b",
       "file": "content/18-advanced-coding-b.md",
-      "title": "Advanced coding (B)"
+      "title": "Advanced coding (AI)"
     },
     {
       "id": "advanced-coding-c",
       "file": "content/19-advanced-coding-c.md",
-      "title": "Advanced coding (C)"
+      "title": "Advanced coding (AI auto-code)"
     },
     {
       "id": "interpreting-hashtags",
