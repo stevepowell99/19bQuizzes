@@ -6,17 +6,17 @@ title: Statement filters
 
 What is the primary function of statement filters in Causal Map?
 y To refine the data set by including or excluding specific statements based on criteria.
-To change the color of statements for visual differentiation.
+To change the colour of statements for visual differentiation.
 To automatically translate statements into different languages.
 To increase the font size of statements for better readability.
 
 How can statement filters enhance the analysis process in Causal Map?
 y By allowing users to focus on relevant data and exclude irrelevant information.
 By enabling the automatic coding of statements without user intervention.
-By summarizing the content of statements into a single report.
+By summarising the content of statements into a single report.
 By converting qualitative data into quantitative data automatically.
 
-Can statement filters in Causal Map be customized for specific research needs?
+Can statement filters in Causal Map be customised for specific research needs?
 y Yes, users can create custom filters based on various criteria to suit their research objectives.
 No, statement filters are fixed and cannot be adjusted by users.
 Yes, but only by contacting Causal Map support to implement changes.

@@ -8,7 +8,7 @@ What is the first step(s) in uploading data to Causal Map?
 y Preparing your data in a compatible format before uploading.
 Converting your data into a proprietary format.
 Creating a backup of your data.
-y Ensuring your data is anonymized.
+y Ensuring your data is anonymised.
 
 Which file types can be uploaded to Causal Map for data analysis?
 y Excel files.
@@ -20,7 +20,7 @@ How does Causal Map handle the privacy and security of uploaded data?
 y By providing options to lock files and control sharing permissions.
 By automatically making all data public for collaborative research.
 By encrypting data with a password that the user must remember.
-By storing data in a decentralized blockchain for security.
+By storing data in a decentralised blockchain for security.
 
 After uploading data to Causal Map, what is the usual next step?
 y Reviewing and coding the data to create causal links.
@@ -31,7 +31,7 @@ Exporting the data back out of Causal Map for external analysis.
 What feature does Causal Map offer for managing versions of your uploaded files?
 y Automatic saving every six minutes and the ability to restore a previous version of a file.
 Automatic deletion of older versions to save space.
-Conversion of all versions into a single, optimized format.
+Conversion of all versions into a single, optimised format.
 Email notifications for every change made to a file.
 
 Why is making a copy of a file often a good idea in Causal Map?
