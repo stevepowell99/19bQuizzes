@@ -5,10 +5,10 @@ title: Interpreting 'surprise'
 > Check out these links from the Garden: [Unexpected factors](https://garden.causalmap.app/unexpected-factors/) | [Map formatting](https://garden.causalmap.app/howto-map-formatting/)
 
 In Causal Map, a 'surprising' link is best understood as one that:
-y Is mentioned more often, or less often, than you would expect for a particular subgroup
-Is always wrong and should be deleted
-Comes from only one source
-Has no quote attached
+y Is mentioned more or less often than expected for a particular subgroup
+Is always wrong and should be removed from the map before sharing it with stakeholders
+Comes from only one source and no others
+Has no supporting quote attached to it
 hint Surprise compares what a group actually said against what you would expect.
 
 Which feature lets you see, on a single map, where subgroups disagree about a link?
@@ -18,20 +18,20 @@ Zoom
 Path tracing
 
 In chi-square mode, what do the up and down arrows on a link mean?
-y The link is cited more (up) or less (down) often than expected for that group
-The link points upwards or downwards on the page
+y Cited more (up) or less (down) often than expected for that group
+The link is pointing upwards or downwards on the page, showing its direction in the causal chain
 The link is correct (up) or incorrect (down)
 hint The arrows flag statistically unexpected, 'surprising' mentions.
 
 What does the 'Links highlight: Significant' option in Map Formatting do?
-y It thickens the links whose group differences are statistically significant and plays down the rest
-It deletes all the links that are not significant
-It colours every link red
-It hides the whole map
+y Thickens statistically significant links and plays down the rest
+It deletes all links that are not statistically significant
+It colours every link in the map red
+It hides the entire map from view
 hint It makes the surprising, significantly different links stand out.
 
 One simple way to spot emerging or unexpected factors while coding is to:
-y Use your theory of change as the starting codebook and note any new factors you have to add
-Code only the factors you already expected and ignore the rest
-Never write down new factors
+y Start from your theory of change as the codebook and note any new factors you must add
+Code only the factors you expected, and mark anything else as miscellaneous so it can be reviewed later
+Delete any factors that were not in your original plan
 hint Starting from your theory of change makes genuinely new factors easy to notice.

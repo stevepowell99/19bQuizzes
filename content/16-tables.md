@@ -5,13 +5,13 @@ title: Tables
 > Check out these links from the Garden: [Links table](https://garden.causalmap.app/links-table/) | [Sources table](https://garden.causalmap.app/sources-table/)
 
 Which of the following are true?
-y You can save a link to a filtered table using the library
+y You can save a link to a filtered table using the bookmarks panel
 y You can download any table as an Excel file for further analysis
 y The columns available differ from table to table
 
 Which table would you use if you wanted to better understand whether a factor was primarily an influence or consequence?
-y The mentions table
-The metrics table
+y The factors table
+The links table
 The sources table
 
 Where could you find a breakdown of the sources and their metadata (e.g. gender, etc)?
@@ -20,10 +20,10 @@ y The factors table
 The files tab
 hint There is more than one correct answer
 
-The factors table has a metric called 'betweenness' what does this show?
-y How central is the factor in the map
-How many sources mentioned this factor
-How many links come out of this factor
+The factors table has a metric called 'outcomeness'. What does this show?
+y How much a factor is an outcome rather than a cause (in-citations divided by total citations)
+How many distinct sources mentioned this factor across the whole project, regardless of direction
+How many links come out of this factor, counting each coded connection to a consequence factor once
 
 This is a screenshot of the mentions table showing source count of factor labels, which was the most commonly cited influencing factor?![example-file-hannah-mentions_table-1224603](../images/example-file-hannah-mentions_table-1224603.png)
 Health behaviour

@@ -2,7 +2,9 @@
 
 A single static page that runs multiple-choice quizzes from plain markdown files. No build framework, no server, no database. Each quiz is one markdown file; a small Python script collects them into a manifest the page reads at runtime. Progress is saved in the browser.
 
-This copy is the [Causal Map Ltd](https://causalmap.app) quiz hub, which teaches the basics of causal mapping. The quiz engine is generic, so you can fork this repository, drop in your own quizzes, swap the branding, and publish your own quiz site. See [Make it your own](#make-it-your-own).
+This copy is the [Causal Map Ltd](https://causalmap.app) quiz hub, which teaches the basics of causal mapping. See it running at **[causalmapquizzes.netlify.app](https://causalmapquizzes.netlify.app/)**. The quiz engine is generic, so you can fork this repository, drop in your own quizzes, swap the branding, and publish your own quiz site. See [Make it your own](#make-it-your-own).
+
+Because there is no build step, hosting is easy: point [Netlify](https://www.netlify.com/) at your fork and it publishes the repository root as-is (the included `netlify.toml` sets `publish = "."`). New commits redeploy automatically. Any other static host works the same way. See [Deployment](#deployment).
 
 ## How it works
 

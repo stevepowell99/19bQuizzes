@@ -15,37 +15,37 @@ The result of an event
 In causal mapping we identify consequence factors, which are:
 y Factors which are influenced by other factors
 All events a respondent mentions
-Factors which have consequences
+Factors which have their own downstream consequences
 The cause of an event
 
 Influence factors:
 y Can appear anywhere in a map as long as they have at least one outgoing arrow
-Can appear anywhere in a map
+Can appear anywhere in a map without restriction, even if they have no connections at all
 Only appear at the beginning of causal chains
 Are also known as drivers
 
 Consequence factors:
 y Can appear anywhere in a map as long as they have at least one incoming arrow
-Can appear anywhere in a map
+Can appear anywhere in a map without restriction, even if they have no connections at all
 Only appear at the end of causal chains
 Are also known as outcomes
 
 Which of the following statements are correct?
-A factor cannot be both an influence and consequence
+A factor cannot be both an influence and a consequence
 There can only be one influence factor per statement
 y An influence factor leads to a consequence
 hint There can be multiple influence factors, and influence factors can be both a consequence and an influence.
 
 What is a feedback loop?
 y A path from a factor back to itself, directly or indirectly
-y A path in which every factor is an influence of itself and a consequence of itself, directly or indirectly
-An influence factor which has multiple consequences
-An influence factor that always has the same consequence
+y A path in which every factor influences itself indirectly through the chain
+An influence factor that has multiple consequences
+An influence factor that always produces the same consequence
 
 Which of the following is NOT a feedback loop:
 The ice caps are melting which leads to warmer oceans, which contributes to the ice caps melting
 y Heavy rains leads to poor crop yield, which leads to less income
-A companies profits go up so they invest back into the company, which helps them boost their income
+A company's profits go up so they invest back into the company, boosting income
 hint Heavy rains leads to poor yield which leads to less income, this does not then affect the rainfall or the crop yield, so this is not a feedback loop.
 
 'When I first became a farmer I was growing maize which was a good decision. Recently I have started planted millet as well. In the future I would like to plant even more varieties'. ///Why might you not code this statement?
@@ -54,12 +54,12 @@ y This is not a causal claim
 There has been no change
 hint There is no clear influence factor for this change and no consequence mentioned by this respondent. They grow maize and may start growing corn but we do not know if or how these events are related.
 
-Read this statement: ///‘I grow maize myself and I sell a range of goods such as maize, corn fritters and salted fish. The price of maize has recently increased which would have been good for my business, unfortunately the rain has been terrible this season and my crops have suffered, so I have nothing to sell and less money coming in’. ///What is the influence factor that has resulted in loss of income?
+Read this statement: ///'I grow maize myself and I sell a range of goods such as maize, corn fritters and salted fish. The price of maize has recently increased which would have been good for my business, unfortunately the rain has been terrible this season and my crops have suffered, so I have nothing to sell and less money coming in'. ///What is the influence factor that has resulted in loss of income?
 Selling a range of goods
 The price of maize increasing
 y Poor rainfall
 
-Read this statement: ///'Healthwise my family is doing well compared to other years. In previous years we went to traditional healers a lot, but not this year because we have had less sickness in the household since we have started washing our hands before eating using a new tap we have. We have picked up these good habits due to the training course run by Organisation X, we want to be more healthy and have less sickness in our household.’ ///What is the first influence factor?
+Read this statement: ///'Healthwise my family is doing well compared to other years. In previous years we went to traditional healers a lot, but not this year because we have had less sickness in the household since we have started washing our hands before eating using a new tap we have. We have picked up these good habits due to the training course run by Organisation X, we want to be more healthy and have less sickness in our household.' ///What is the first influence factor?
 The installation of a new tap
 y Organisation X training course
 Not visiting traditional healers
@@ -69,10 +69,10 @@ Looking at the same statement, which factor is both a influence and consequence 
 y Washing their hands
 Improved health
 Organisation X training course
-hint Washing their hands has been caused by Organisation X’s training course and also has influenced the family’s health.
+hint Washing their hands has been caused by Organisation X's training course and also has influenced the family's health.
 
 Looking at the same statement, what is the last factor in the chain?
-Improved health
+Improved health outcomes for the whole household over the long term
 y Not visiting the traditional healers
 Washing their hands
 hint Washing their hands has led to Improved health which has led to them visiting the traditional healers less, so this is the last factor in the causal chain
